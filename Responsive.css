@@ -1,0 +1,1119 @@
+@media only screen and (max-width: 768px) {
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.topBar{
+    width: 100%;
+    overflow: hidden;
+    background: rgb(221 221 221 / 46%);
+    display: flex;
+    place-items: center;
+}
+.topBarContainer{
+    width: 90%;
+    margin: auto;
+}
+.topBarContainer p{
+    display: inline;
+    font-size: 15px
+}
+.phoneBox{
+    width: auto;
+    height: 50px;
+    float: left;
+    border: none;
+    display: flex;
+    place-items: center;
+    margin-right: 10px;
+}
+.phoneBox i{
+    margin: 0px 7px 0px 0px;
+    color: #ff5200;
+}
+.emailBox{
+    width: 400px;
+    height: 50px;
+    float: left;
+    display: flex;
+    border: none;
+    place-items: center;
+}
+.emailBox i{
+    margin: 0px 8px 0px 0px;
+    color: #ff5200;
+}
+.iconBox{
+    height: 50px;
+    float: unset;
+    text-align: center;
+    display: flex;
+    place-items: center;
+}
+.iconBox i{
+    padding: 5px;
+    border-left: 1px solid #d9d1d1cf;
+    transition: 0.3s;
+}
+.iconBox #bdr{
+    border-right: 1px solid #d9d1d1cf;
+}
+.iconBox i:hover{
+    color: #ff5200;
+    cursor: pointer;
+}
+/* end of topbar */
+
+/* start navigationbar */
+.navigationBar{
+    width: 100%;
+    height: 70px;
+    background: white;
+    box-shadow: 0px 1px 6px -4px;
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.logoBox{
+    float: left;
+    height: 70px;
+    display: flex;
+    place-items: center;
+}
+.barIcon{
+  display: block;
+  float: right;
+  position: relative;
+  top: 19px;
+  right: 10px
+}
+.barIcon i{
+  font-size: 30px
+}
+.navigationBox{
+    float: none;
+    display: block;
+    width: 35%;
+    height: 60vh;
+    position: fixed;
+    top: 0px;
+    left: -35%;
+    transition: 0.4s
+}
+.navStyle{
+  left: 0
+}
+.navigationBox ul{
+    list-style: none;
+}
+.navigationBox ul li{
+    font-weight: bold;
+    height: 16.67vh;
+    display: grid;
+    place-items: center;
+    background: #ddd;
+    margin: 0px
+}
+.navigationBox ul li:hover{
+  background: #222
+}
+.navigationBox #mrgR{
+    margin: 0px 0px 0px 0px !important;
+}
+.navigationBox a{
+    text-decoration: none;
+    color: #222;
+    transition: 0.3s;
+    font-family: oswald;
+    font-weight: 500;
+}
+.navigationBox ul li:hover a{
+    color: #ff5200;
+}
+.navigationBox #active{
+    color: #ff5200;
+}
+/* end of navbar */
+
+/* start slider */
+.slider{
+    width: 100%;
+    height: 300px;
+    background: url(slide-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+.style1{
+    background: transparent !important;
+    border: 2px solid white !important;
+}
+.style2{
+    background: #ff5200 !important;
+    border: 2px solid #ff5200 !important;
+}
+.styleImg{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important
+}
+.titleBox{
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: 0;
+}
+.titleBox h1{
+    font-size: 30px;
+    font-family: oswald;
+    color: white;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 50px
+}
+.titleBox p{
+    display: none
+}
+.titleBox a{
+    text-decoration: none;
+    font-family: oswald;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    letter-spacing: 1px;
+    background: #ff5200;
+    border-radius: 3px;
+}
+.titleBox a:hover{
+    background: #312d2b;
+}
+.container button{
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    top: 105px;
+    cursor: pointer;
+}
+.slider #acitve{
+    background: #ff5200 ;
+    border: 2px solid #ff5200 ;
+}
+/* end of slider */
+
+/* secrvices */
+.services{
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+    background: #ebebeb;
+}
+.subContainer{
+    width: 100%;
+    display: block;
+}
+.servicesBox{
+    width: 100%;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    text-align: center;
+    transition: 0.3s;
+    margin-bottom: 30px
+}
+.servicesBox >i{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #ff5200;
+    transition: 0.3s;
+}
+.servicesBox h1{
+    color: #333333;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+.servicesBox p{
+    color: #333333;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    transition: 0.3s;
+}
+.servicesBox a{
+    text-decoration: none;
+    color: #ff5200;
+    transition: 0.3s;
+}
+.servicesBox:hover{
+    background: #ff5200;;
+}
+.servicesBox:hover i{
+    color: white;
+}
+.servicesBox:hover h1{
+    color: white;
+}
+.servicesBox:hover p{
+    color: white;
+}
+.servicesBox:hover a{
+    color: white;
+}
+/* end of servicesBox */
+
+/* start projects */
+.projects{
+    width: 100%;
+    padding: 50px 0px;
+    overflow: hidden;
+}
+.imgBox{
+    width: 100%;
+    float: none;
+}
+.imgBox img{
+    width: 100%;
+}
+.projectsDetails{
+    width: 100%;
+    float: none;
+}
+.detailsHead h1{
+    font-size: 30px;
+    font-family: oswald;
+    margin: 5px 0px 20px 0px;
+}
+.detailsHead p{
+    line-height: 1.6;
+    color: #656565;
+    margin-bottom: 30px;
+}
+.detailsLink{
+    width: 100%;
+    overflow: hidden;
+}
+.detailsLink a{
+    text-decoration: none;
+    color: #222;
+    transition: 0.1s;
+}
+.detailsLink a:hover{
+    color: #ff5200;
+}
+.detailsLink li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+.detailsLink i{
+    margin-right: 5px;
+}
+.detailsButton{
+    width: 150px;
+    height: 50px;
+    background: #ff5200;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.detailsButton a:hover{
+    background: #312d2b;
+}
+.detailsButton a{
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: oswald;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    display: grid;
+    place-items: center;
+    transition: 0.3s;
+}
+/* end of projects */
+
+/* start achivment */
+.achivment{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(#413d3db0,#393636ad),url(why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden
+}
+.achivmentSubContainer{
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 50px 0px 0px 0px;
+}
+.achevmentBox{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px
+}
+.achevmentBox i{
+    font-size: 50px;
+    color: white;
+}
+.achevmentBox h1{
+    font-size: 30px;
+    margin: 20px 0px;
+    color: white;
+}
+.achevmentBox p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+/* end of achivment */
+
+/* start services-two */
+.services-two{
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+    background: #ebebeb;
+    overflow: hidden;
+}
+.services-two-headLine{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.services-two-headLine h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: oswald;
+}
+.services-two-headLine p{
+    margin-bottom: 5px;
+    color: #656565;
+}
+.services-two-headLine hr{
+    width: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1.5px solid #ff5200;
+    background: #ff5200;
+    margin-bottom: 15px;
+}
+.services-two-box{
+    width: 100%;
+    display: block;
+}
+.stbBox{
+    width: 100%;
+    margin-bottom: 30px
+}
+.stbImgBox{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.stbImgBox img{
+    width: 100%;
+}
+.imgTitle{
+    padding-right: 10px;
+}
+.imgTitle h1{
+    font-size: 20px;
+    font-family: Oswald;
+    margin-bottom: 5px;
+}
+.imgTitle p{
+    color: #656565;
+    line-height: 1.5;
+}
+/* end of services-two */
+
+/* start price plan */
+.price-plan{
+    width: 100%;
+    padding: 50px 0px 20px 0px;
+    overflow: hidden;
+}
+.pricePlanHeadLine{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.pricePlanHeadLine h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: oswald;
+}
+.pricePlanHeadLine p{
+    margin-bottom: 5px;
+    color: #656565;
+}
+.pricePlanHeadLine hr{
+    width: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1.5px solid #ff5200;
+    background: #ff5200;
+    margin-bottom: 15px;
+}
+.pricePlanDetails{
+    width: 100%;
+    display: block;
+}
+.ppdBox{
+    width: 100%;
+    padding: 30px 0px 30px 25px;
+    box-shadow: 0px 0px 2px -1px;
+    margin-bottom: 30px
+}
+.ppdBox h2{
+    font-size: 25px;
+    font-family: oswald;
+    margin-bottom: 12px;
+}
+.ppdBox h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.ppdBox span{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.ppdBox ul{
+    list-style: none;
+}
+.ppdBox li{
+    color: #57647c;
+    margin-bottom: 20px;
+}
+.ppdBox i{
+    color: #ff5200;
+    margin-right: 7px;
+}
+.ppdBox a{
+    text-decoration: none;
+    width: 170px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 3px;
+    font-weight: 500;
+    font-family: oswald;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background: #ff5200;
+    color: white;
+    transition: 0.3s;
+}
+.ppdBox a:hover{
+    background: #312d2b;
+}
+/* price plan */
+
+/* start Latest-idea */
+.latest-idea{
+    width: 100%;
+    overflow: hidden;
+}
+.liImgBox{
+    width: 100%;
+    height: 500px;
+    float: none;
+    background: url(s02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.liDetailsBox{
+    width: 100%;
+    height: auto !important;
+    float: none;
+    background: #222222;
+    padding: 30px 20px 30px 20px;
+    display: block;
+}
+.lidbHeadBox{
+    
+}
+.lidbHeadBox h1{
+    font-family: oswald;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.lidbHeadBox p{
+    color: #fff;
+    margin-bottom: 30px
+}
+.lidbServicesBox{
+    display: flex;
+    margin-bottom: 30px
+}
+.lidbServicesBox:hover .lidsTitle h2{
+    color: #ff5200;
+}
+.lidsbicon{
+    width: 40px;
+    margin-right: 10px;
+}
+.lidsbicon i{
+    font-size: 25px;
+    color: #ff5200;
+}
+.lidsTitle h2{
+    color: white;
+    font-family: oswald;
+    font-size: 18px;
+    margin-bottom: 5px;
+    line-height: 1.5rem
+}
+.lidsTitle p{
+    color: #ddd;
+}
+/* end of Latest-idea */
+
+/* start Team */
+.team{
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    overflow: hidden;
+}
+.teamTitleHeader{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.teamTitleHeader h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: oswald;
+}
+.teamTitleHeader p{
+    margin-bottom: 5px;
+    color: #656565;
+}
+.teamTitleHeader hr{
+    width: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1.5px solid #ff5200;
+    background: #ff5200;
+    margin-bottom: 15px;
+}
+.teamEmployee{
+    display: block;
+}
+.employeeDetailsBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 50px
+}
+.employeeImgBox{
+    width: 100%;
+}
+.employeeImgBox img{
+    width: 100%;
+    height: 100%;
+}
+.employeeDetailsBox ul{
+    list-style: none;
+}
+.employeeDetailsBox li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    transition: 0.3s;
+    position: absolute;
+    top: 40%;
+    opacity: 0;
+}
+.employeeDetailsBox li:hover{
+    background: white !important;
+    cursor: pointer;
+}
+.employeeDetailsBox li:hover i{
+    color: black;
+}
+.employeeDetailsBox i{
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+}
+.employeeDetailsBox #fb{
+    background: #3b5998;
+    left: 22%;
+    transition-delay: 0.2s;
+}
+.employeeDetailsBox #gpls{
+    background: #DB4A39;
+    left: 50%;
+    transform: translateX(-50%);
+    transition-delay: 0.1s;
+}
+.employeeDetailsBox #twt{
+    background: #00ACEE;
+    right: 22%;
+}
+.employeeDetailsBox:hover li{
+    top: 55%;
+    opacity: 1;
+}
+.employeeDetails{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 5px -3px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+}
+.employeeDetails h1{
+    font-family: oswald;
+    margin-bottom: 5px;
+}
+.employeeDetails p{
+    font-size: 14px;
+    color: #656565;
+}
+.teamButton{
+    margin-top: 50px;
+}
+.teamButton a{
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    text-decoration: none;
+    background: #252525;
+    color: white;
+    font-weight: bold;
+    font-family: oswald;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    display: grid;
+    place-items: center;
+    transition: 0.3s;
+}
+.teamButton a:hover{
+    background: #ff5200;
+}
+/* end of team */
+
+/* start best-project */
+.best-project{
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    background: #ebebeb;
+    overflow: hidden;
+}
+.bestProjectMainBox{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.bestProjectBox{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px
+}
+.bestProjectBox:hover .bpTextBox{
+    padding-bottom: 50px;
+    background: linear-gradient(#00000000,#000000f0);
+}
+.bestProjectBox:hover a{
+    left: 50px;
+    opacity: 1;
+}
+.bpImgBox{
+    width: 100%;
+}
+.bpImgBox img{
+    width: 100%;
+}
+.bpTextBox{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 40px 50px 0px 50px;
+    background: linear-gradient(transparent,#000000c2);
+    transition: 0.3s;
+}
+.bpTextBox span{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bpTextBox h3{
+    font-family: oswald;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.bestProjectBox a{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    bottom: 40px;
+    left: -105px;
+    opacity: 0;
+    transition: 0.4s;
+    transition-delay: 0s;
+}
+.bestProjectBox a i{
+    font-size: 14px;
+    margin-left: 3px;
+}
+/* end of best projects */
+
+/* start latest news */
+.latest-news{
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+    overflow: hidden;
+}
+.teamMainBox{
+    width: 100%;
+    display: block;
+}
+.teamDetailsBox{
+    width: 100%;
+    margin-bottom: 50px
+}
+.teamDetailsBox:hover .tdbImgBox img{
+    transform: scale(1.1);
+}
+.tdbImgBox{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+.tdbImgBox img{
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+}
+.tdbText{
+    padding: 30px;
+    box-shadow: 0px 0px 5px -3px;
+    position: relative;
+}
+.tdbText ul{
+    list-style: none;
+}
+.tdbText ul li{
+    font-size: 14px;
+    display: inline;
+    position: relative;
+}
+.tdbText li:first-child{
+    color: #777;
+}
+.tdbText li:last-child{
+    padding-left: 35px;
+}
+.tdbText #lastChild:hover{
+    color: #ff5200;
+}
+.tdbText li:last-child::after{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 20px;
+    height: 3px;
+    background: #ff5200;
+}
+.tdbText li a{
+    text-decoration: none;
+}
+.tdbText #cmnt{
+    color: #333232;
+    transition: 0.2s;
+}
+.tdbText #cmnt:hover{
+    color: #ff5200;
+}
+.tdbText h1{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.tdbText h1 a{
+    text-decoration: none;
+    color: #333333;
+    font-family: oswald;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.tdbText h1 a:hover{
+    color: #ff5200;
+}
+.tdbText p{
+    color: #727272;
+    line-height: 1.6rem;
+    margin-bottom: 20px;
+}
+.tdbText>a{
+    text-decoration: none;
+    color: #ff5200;
+    font-size: 14px;
+}
+.tdbText a i{
+    margin-left: 3px;
+}
+/* end of latest news */
+
+/* start footer */
+footer{
+    width: 100%;
+    position: relative;
+}
+.footerTopBox{
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff5200;
+    position: absolute;
+    z-index: 1;
+    padding: 40px 20px 0px 20px;
+    display: block;
+}
+.fTopBox{
+    width: 100%;
+    margin-bottom: 40px
+}
+.fTopBox h1{
+    font-family: oswald;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 13px;
+}
+.fTopBox form{
+    position: relative;
+}
+.fTopBox input{
+    padding: 15px 0px 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 15px;
+    width: 100%;
+}
+.fTopBox button{
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #000;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+}
+.fTopBox p{
+    color: #fff;
+    line-height: 1.5rem;
+}
+.followIconBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.followIconBox a{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: 0.3s;
+}
+.followIconBox a:hover{
+    background: white;
+}
+.followIconBox a:hover i{
+    color: black;
+}
+.followIconBox a i{
+    color: white;
+    transition: 0.3s;
+}
+.footerMainBox{
+    width: 100%;
+    background: #1a1a1a;
+    padding: 300px 0px 0px 0px;
+    position: relative;
+    top: 250px;
+}
+.mainContentBox{
+    width: 100%;
+    display: block;
+    margin-bottom: 0px;
+}
+.contentBox{
+    width: 100%;
+    margin-bottom: 40px
+}
+.contentBox>h2{
+    font-family: oswald;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contentBox>p{      /* box 1 */
+    line-height: 1.6rem;
+    color: #ababab;
+    margin-bottom: 20px;
+}
+.cbIconBox{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.cbIconBox a{
+    color: #ababab;
+    transition: 0.2s;
+}
+.cbIconBox a:hover{
+    color: #ff5200;
+}
+.contentTextBox{        /* box 2 */
+    display: flex;
+    height: 55px;
+}
+.contentTextBox i{
+    margin-right: 15px;
+    color: #ff5200;
+}
+.contentTextBox p{
+    color: #ababab;
+}
+.contentBox ul{     /* box 3 */
+    list-style: none;
+}
+.contentBox li{
+    padding-bottom: 9px;
+    margin-bottom: 9px;
+    border-bottom: 1px dashed #ababab;
+}
+.contentBox #bdr{
+    border-bottom: none;
+}
+.contentBox li a{
+    text-decoration: none;
+    color: #ababab;
+    transition: 0.2s;
+}
+.contentBox li a:hover{
+    color: #ff5200;
+}
+.contentPostBox{        /* box 4 */
+    display: flex;
+    margin-bottom: 20px;
+}
+.dateBox{
+    width: 80px;
+    display: grid;
+    place-items: center;
+    margin-right: 20px;
+    background: #4444;
+    border-radius: 3px;
+    padding: 5px 0px;
+}
+.dateBox h2,span,h5{
+    color: #fff;
+}
+.dateBox span{
+    font-family: oswald;
+    font-size: 10px;
+}
+.dateBox h5{
+    font-family: oswald;
+    font-size: 12px;
+}
+.postDetails h2{
+    margin-bottom: 5px;
+}
+.postDetails h2 a{
+    text-decoration: none;
+    color: #ababab;
+    font-family: oswald;
+    font-size: 17px;
+    transition: 0.3s;
+}
+.postDetails h2 a:hover{
+    color: #ff5200;
+}
+.postCommentBox{
+    display: flex;
+}
+.postAdmin{
+    margin-right: 20px;
+}
+.postAdmin i{
+    color: #ababab;
+    font-size: 12px;
+}
+.postAdmin span{
+    color: #ababab;
+    font-size: 12px;
+}
+.postComment i{
+    color: #ababab;
+    font-size: 12px;
+}
+.postComment span{
+    color: #ababab;
+    font-size: 12px;
+}
+.copyRightMainBox{
+    width: 100%;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.copyRightBox{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: block;
+}
+.crbTextBox{
+  margin-bottom: 15px
+}
+.crbTextBox p{
+    color: #ababab;
+}
+.someLink{
+  text-align: center
+}
+.someLink a{
+    text-decoration: none;
+    color: #ababab;
+    font-size: 15px;
+    margin: 0px 5px;
+}
+
+
+} /* END */
